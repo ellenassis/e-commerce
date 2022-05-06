@@ -32,7 +32,12 @@ export const Language = styled.span `
 `;
 
 export const Input = styled.input `
+  &:focus {
+    outline: none;
+  }
+  
   border: none;
+  background: transparent;
 `;
 
 export const Center = styled.div`

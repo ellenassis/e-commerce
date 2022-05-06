@@ -35,7 +35,7 @@ export const Header = () => {
           <MenuItem>Registrar</MenuItem>
           <MenuItem>Entrar</MenuItem>
           <MenuItem>
-            <Badge badgeContent={2} color="secondary">
+            <Badge badgeContent={2} color="primary">
              <ShoppingCartIcon />
             </Badge>
           </MenuItem>
