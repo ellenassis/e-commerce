@@ -9,5 +9,10 @@ export default createGlobalStyle  `
 
     body {
         font-family: 'Urbanist', sans-serif;
+        overflow-x: hidden;
+    }
+
+    :root {
+        --principal: #2D848A;
     }
 `;
