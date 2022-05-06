@@ -34,8 +34,8 @@ export const Hero = () => {
         <ArrowBackIosIcon />
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
-        {slideData.map((item) => (
-          <Slide bg={item.bg}>
+        {slideData.map((item, key) => (
+          <Slide bg={item.bg} key={item.id}>
             <ImgContainer>
               <Image src={item.img} />
             </ImgContainer>
