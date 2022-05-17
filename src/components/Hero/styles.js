@@ -4,6 +4,10 @@ export const Container = styled.div`
   height: 100vh;
   width: 100%;
   position: relative;
+
+  @media (max-width: 650px) {
+    display: none;
+  }
 `;
 
 export const Arrow = styled.div`
@@ -59,6 +63,10 @@ export const InfoContainer = styled.div`
 
 export const Title = styled.h1`
   font-size: 70px;
+
+  @media (max-width: 860px) {
+    font-size: 50px;
+  }
 `;
 
 export const Description = styled.p`

@@ -19,6 +19,10 @@ export const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background-color: white;
+
+  @media (max-width: 650px) {
+    width: 80%;
+  }
 `;
 
 export const Title = styled.h2`
