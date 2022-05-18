@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  justify-content: space-between;
 
   @media (max-width: 650px) {
     flex-direction: column;
@@ -10,8 +11,12 @@ export const Container = styled.div`
 `;
 
 export const Left = styled.div`
-  flex: 1;
+  width: 30%;
   padding: 20px;
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
 `;
 
 export const Logo = styled.h1`
@@ -45,7 +50,6 @@ export const SocialIcon = styled.div`
 
 export const Center = styled.div`
   padding: 20px;
-  flex: 1;
 `;
 
 export const Title = styled.h3`
@@ -67,7 +71,6 @@ export const ListItem = styled.li`
 
 export const Right = styled.div`
   padding: 20px;
-  flex: 1;
 `;
 
 export const ContactItem = styled.div`
