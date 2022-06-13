@@ -14,5 +14,6 @@ export default createGlobalStyle  `
 
     :root {
         --principal: #2D848A;
+        
     }
 `;
